@@ -24,3 +24,16 @@ def test_retarit2():
 
     #assert
     assert resultat_attendu == resultat_obtenu
+
+
+def test_retarit3():
+    #arrange
+    solde = 1000
+    montant = 300
+    resultat_attendu = 700
+
+    #act
+    resultat_obtenu = retrait(solde,montant)
+
+    #assert
+    assert resultat_attendu == resultat_obtenu
