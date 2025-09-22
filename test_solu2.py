@@ -16,8 +16,8 @@ def test_retarit1():
 def test_retarit2():
     #arrange
     solde = 1000
-    montant = 900
-    resultat_attendu = 100
+    montant = 800
+    resultat_attendu = 200
 
     #act
     resultat_obtenu = retrait(solde,montant)
